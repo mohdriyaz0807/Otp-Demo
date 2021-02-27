@@ -1,0 +1,32 @@
+.App{
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height:400px;
+  margin: 10%;
+
+}
+.input input{
+  width:20px;
+  margin: 5px;
+  font-size: x-large;
+  text-align: center;
+}
+.btn, .btn2{
+  margin-top: 50px;
+  background-color: rgb(116, 255, 116);
+  color: black;
+  font-size: larger;
+  border-radius: 15px;
+  padding: 5px 20px;
+  cursor: pointer ;
+}
+.btn:hover {
+  background-color: cornsilk;
+}
+.btn2:disabled ,.btn:disabled{
+  background-color: gray;
+}
